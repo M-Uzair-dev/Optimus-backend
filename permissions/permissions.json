@@ -1,0 +1,312 @@
+{
+  "CM": {
+    "Absent": {
+      "view": "allow",
+      "edit": "approval",
+      "delete": "approval",
+      "create": "allow"
+    },
+    "client": {
+      "view": "allow",
+      "edit": "approval",
+      "delete": "approval",
+      "create": "allow"
+    },
+    "contract": {
+      "view": "allow",
+      "edit": "approval",
+      "delete": "approval",
+      "create": "allow"
+    },
+    "employee": {
+      "view": "allow",
+      "edit": "approval",
+      "delete": "approval",
+      "create": "allow"
+    },
+    "file": {
+      "view": "only if in the (access) array of the parent or grandparent folder",
+      "edit": "approval",
+      "delete": "approval",
+      "create": "only if in the (access) array of the parent or grandparent folder"
+    },
+    "folder": {
+      "view": "only if in the (access) array of the parent or grandparent folder",
+      "edit": "approval",
+      "delete": "approval",
+      "create": "only if in the (access) array of the parent or grandparent folder"
+    },
+    "project": {
+      "view": "allow",
+      "edit": "approval",
+      "delete": "approval",
+      "create": "allow"
+    },
+    "transaction": {
+      "view": "not allowed",
+      "edit": "not allowed",
+      "delete": "not allowed",
+      "create": "not allowed"
+    },
+    "vendor": {
+      "view": "allow",
+      "edit": "approval",
+      "delete": "approval",
+      "create": "allow"
+    },
+    "workStatus": {
+      "view": "allow",
+      "edit": "approval",
+      "delete": "approval",
+      "create": "allow"
+    }
+  },
+  "QS": {
+    "Absent": {
+      "view": "allow",
+      "edit": "approval",
+      "delete": "approval",
+      "create": "allow"
+    },
+    "client": {
+      "view": "allow",
+      "edit": "approval",
+      "delete": "approval",
+      "create": "allow"
+    },
+    "contract": {
+      "view": "allow",
+      "edit": "approval",
+      "delete": "approval",
+      "create": "allow"
+    },
+    "employee": {
+      "view": "allow",
+      "edit": "approval",
+      "delete": "approval",
+      "create": "allow"
+    },
+    "file": {
+      "view": "only if in the (access) array of the parent or grandparent folder",
+      "edit": "approval",
+      "delete": "approval",
+      "create": "only if in the (access) array of the parent or grandparent folder"
+    },
+    "folder": {
+      "view": "only if in the (access) array of the parent or grandparent folder",
+      "edit": "approval",
+      "delete": "approval",
+      "create": "only if in the (access) array of the parent or grandparent folder"
+    },
+    "project": {
+      "view": "allow",
+      "edit": "approval",
+      "delete": "approval",
+      "create": "allow"
+    },
+    "transaction": {
+      "view": "not allowed",
+      "edit": "not allowed",
+      "delete": "not allowed",
+      "create": "not allowed"
+    },
+    "vendor": {
+      "view": "allow",
+      "edit": "approval",
+      "delete": "approval",
+      "create": "allow"
+    },
+    "workStatus": {
+      "view": "allow",
+      "edit": "approval",
+      "delete": "approval",
+      "create": "allow"
+    }
+  },
+  "Accountant": {
+    "Absent": {
+      "view": "not allowed",
+      "edit": "not allowed",
+      "delete": "not allowed",
+      "create": "not allowedw"
+    },
+    "client": {
+      "view": "not allowed",
+      "edit": "not allowed",
+      "delete": "not allowed",
+      "create": "not allowedw"
+    },
+    "contract": {
+      "view": "only to get a list of contracts to be added in the transaction",
+      "edit": "not allowed",
+      "delete": "not allowed",
+      "create": "not allowedw"
+    },
+    "employee": {
+      "view": "allow",
+      "edit": "approval",
+      "delete": "approval",
+      "create": "allow"
+    },
+    "file": {
+      "view": "only if in the (access) array of the parent or grandparent folder",
+      "edit": "approval",
+      "delete": "approval",
+      "create": "only if in the (access) array of the parent or grandparent folder"
+    },
+    "folder": {
+      "view": "only if in the (access) array of the parent or grandparent folder",
+      "edit": "approval",
+      "delete": "approval",
+      "create": "only if in the (access) array of the parent or grandparent folder"
+    },
+    "project": {
+      "view": "only to get a list of projects to be added in the transaction",
+      "edit": "not allowed",
+      "delete": "not allowed",
+      "create": "not allowedw"
+    },
+    "transaction": {
+      "view": "allow",
+      "edit": "approval",
+      "delete": "approval",
+      "create": "allow"
+    },
+    "vendor": {
+      "view": "only to get a list of vendors to be added in the transaction",
+      "edit": "not allowed",
+      "delete": "not allowed",
+      "create": "not allowedw"
+    },
+    "workStatus": {
+      "view": "not allowed",
+      "edit": "not allowed",
+      "delete": "not allowed",
+      "create": "not allowedw"
+    }
+  },
+  "Procurement": {
+    "Absent": {
+      "view": "not allowed",
+      "edit": "not allowed",
+      "delete": "not allowed",
+      "create": "not allowed"
+    },
+    "client": {
+      "view": "not allowed",
+      "edit": "not allowed",
+      "delete": "not allowed",
+      "create": "not allowed"
+    },
+    "contract": {
+      "view": "not allowed",
+      "edit": "not allowed",
+      "delete": "not allowed",
+      "create": "not allowed"
+    },
+    "employee": {
+      "view": "not allowed",
+      "edit": "not allowed",
+      "delete": "not allowed",
+      "create": "not allowed"
+    },
+    "file": {
+      "view": "only if in the (access) array of the parent or grandparent folder",
+      "edit": "approval",
+      "delete": "approval",
+      "create": "only if in the (access) array of the parent or grandparent folder"
+    },
+    "folder": {
+      "view": "only if in the (access) array of the parent or grandparent folder",
+      "edit": "approval",
+      "delete": "approval",
+      "create": "only if in the (access) array of the parent or grandparent folder"
+    },
+    "project": {
+      "view": "only to get a list of projects to be added in the transaction",
+      "edit": "not allowed",
+      "delete": "not allowed",
+      "create": "not allowed"
+    },
+    "transaction": {
+      "view": "only ones created by themselves",
+      "edit": "approval - only ones created by themselves",
+      "delete": "approval - only ones created by themselves",
+      "create": "allow"
+    },
+    "vendor": {
+      "view": "only to get a list of projects to be added in the transaction",
+      "edit": "not allowed",
+      "delete": "not allowed",
+      "create": "not allowed"
+    },
+    "workStatus": {
+      "view": "not allowed",
+      "edit": "not allowed",
+      "delete": "not allowed",
+      "create": "not allowed"
+    }
+  },
+  "PM": {
+    "Absent": {
+      "view": "not allowed",
+      "edit": "not allowed",
+      "delete": "not allowed",
+      "create": "not allowed"
+    },
+    "client": {
+      "view": "not allowed",
+      "edit": "not allowed",
+      "delete": "not allowed",
+      "create": "not allowed"
+    },
+    "contract": {
+      "view": "not allowed",
+      "edit": "not allowed",
+      "delete": "not allowed",
+      "create": "not allowed"
+    },
+    "employee": {
+      "view": "not allowed",
+      "edit": "not allowed",
+      "delete": "not allowed",
+      "create": "not allowed"
+    },
+    "file": {
+      "view": "only if in the (access) array of the parent or grandparent folder",
+      "edit": "approval",
+      "delete": "approval",
+      "create": "only if in the (access) array of the parent or grandparent folder"
+    },
+    "folder": {
+      "view": "only if in the (access) array of the parent or grandparent folder",
+      "edit": "approval",
+      "delete": "approval",
+      "create": "only if in the (access) array of the parent or grandparent folder"
+    },
+    "project": {
+      "view": "allow - only the projects of which they are set to (PM)",
+      "edit": "not allowed",
+      "delete": "not allowed",
+      "create": "not allowed"
+    },
+    "transaction": {
+      "view": "not allowed",
+      "edit": "not allowed",
+      "delete": "not allowed",
+      "create": "not allowed"
+    },
+    "vendor": {
+      "view": "not allowed",
+      "edit": "not allowed",
+      "delete": "not allowed",
+      "create": "not allowed"
+    },
+    "workStatus": {
+      "view": "allow",
+      "edit": "approval",
+      "delete": "approval",
+      "create": "allow"
+    }
+  }
+}
